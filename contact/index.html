@@ -6,7 +6,20 @@
     <title>Contact title</title>
 </head>
 <body>
-    <h1>Contact's body</h1>
-    <nav> <a> projects/index.html <a>https://github.com/pitipatw target= "_blank" </a></nav>
+    <h1>Contact</h1>
+    <nav> 
+        <a href="../projects/index.html">Projects</a> <br>
+        <a href="https://github.com/pitipatw" target= "_blank">Github</a>
+    </nav>
+    <form action="mailto:My_dummy_email@gmail.com" method="post" enctype="text/plain">
+        <label>Email:s</label>
+        <input name = "email" type = "email">
+        <label>Subject:</label>
+        <input name = "subject" value = "defaultvalue"></input>
+        <label>Body:</label>
+        <textarea name = "body"></textarea>
+        <button>Submit</button>
+    </form>
 </body>
 </html>
+
