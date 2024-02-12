@@ -1,6 +1,46 @@
-body {
-    /* Set Line height to 1.5 times the font size
-       and use the OS's UI font as the website font
-     */
-     font: 100%/1.5 system-ui
+.body {
+  /* Set Line height to 1.5 times the font size
+     and use the OS's UI font as the website font
+   */
+   font: 100%/1.5 system-ui
+}
+
+
+.body h1{
+  font-size:20px;
+}
+.header{
+  padding:80px;
+  text-align:center;
+  background:#536878;
+  color:white;
+}
+
+.header h1 {
+  font-size:40px;
+}
+
+
+.navbar {
+  overflow: hidden; /* Hide overlfow */
+  background-color:#708090;
+}
+
+.navbar a {
+  float: left; /* Make sure that the links stay side-by-side */
+  display:block; /* Change the display to block (responsive reason) */
+  color: white; 
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none; /* Remove underline */
+}
+
+.navbar a.right {
+  float:right;
+}
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+  background-color: #ddd; /* Grey background color */
+  color:black; /* Black text color */
 }
